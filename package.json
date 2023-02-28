@@ -1,5 +1,5 @@
 {
-	"private": true,
+	"private": false,
 	"name": "ababil-utils",
 	"version": "1.0.1",
 	"type": "module",
