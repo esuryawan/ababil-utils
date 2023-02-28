@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"name": "ababil-utils",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "module",
 	"main": "build/index.js",
 	"description": "Ababil Utilities",
