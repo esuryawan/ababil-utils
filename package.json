@@ -1,0 +1,17 @@
+{
+	"private": true,
+	"name": "ababil-utils",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "build/index.js",
+	"description": "Ababil Utilities",
+	"scripts": {
+		"build": "rimraf build && tsc"
+	},
+	"keywords": [],
+	"author": "Erick Suryawan <erick.suryawan@gmail.com>",
+	"license": "Ababil",
+	"devDependencies": {
+		"typescript": "^4.9.5"
+	}
+}
