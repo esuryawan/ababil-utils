@@ -1,3 +1,5 @@
+import { MONTHS } from "./constants.js";
+
 export function getLocalTime() {
 	var date = new Date();
 	var today = new Date(date.getTime() - (date.getTimezoneOffset() * 60000)).toISOString().replace(/T/, ' ').slice(0, -5); // avoid dot in json key name
@@ -49,6 +51,12 @@ export function dateToYYYYMM(dt: Date) {
 	var m = dt.getMonth() + 1;
 	var y = dt.getFullYear();
 	return '' + y + (m <= 9 ? '0' + m : m);
+}
+
+export function dateToMMM_YYYY(date: Date) {
+	var m = date.getMonth();
+	var y = date.getFullYear();
+	return MONTHS[m] + ' ' + y;
 }
 
 export function dateToYYYYMMDD(date: Date) {
